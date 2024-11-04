@@ -6,6 +6,7 @@ max_epochs: -1
 
 accelerator: gpu
 devices: [0]
+strategy: ddp_find_unused_parameters_true
 
 # mixed precision for extra speed-up
 precision: 16-mixed
